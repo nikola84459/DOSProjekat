@@ -1,4 +1,4 @@
-Ovaj projekat ima za cilj da na osnovu slika za magnetne rezonance glave prepozna da li je prisutan tumor na mozgu.
+Ovaj projekat ima za cilj da na osnovu slika sa magnetne rezonance glave prepozna da li je prisutan tumor na mozgu.
 
 Prvo se pristupa obradi slike kako bi klasifikacija bila uspešna:
 
