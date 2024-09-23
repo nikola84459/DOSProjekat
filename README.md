@@ -10,4 +10,4 @@ Prvo se pristupa obradi slike kako bi klasifikacija bila uspešna:
   
 Nakon toga kreira se neuronska mreža koja će se koristiti u klasifikaciji i vrši se obučavanje.
 
-Procenat tačnost(accuracy) je na kraju obučavanja 88.57
+Procenat tačnost(accuracy) je na kraju obučavanja 88.57%
