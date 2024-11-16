@@ -1,17 +1,18 @@
-Ovaj projekat ima za cilj da na osnovu slika sa magnetne rezonance glave prepozna da li je prisutan tumor na mozgu.
+Description:
+The goal of this project is to detect the presence of a brain tumor based on images from magnetic resonance imaging (MRI).
 
-Prvo se pristupa obradi slike kako bi klasifikacija bila uspešna:
+The process begins with image preprocessing to ensure successful classification:
 
-  Prvo se učitavaju slike iz foldera i prikazuju se
-  
-  Nakon toga se računa SNR indeks nivoa šuma na slici, gde se grafički prikazuje nivo šuma na slikama
-  
-  Nakon toga se vrši interpolacija slike primenom BICUBIC algoritma za skaliranje slike
-  
-  Posle toga se vrši uklanjanje šuma sa slika gde je SNR indeks manji od 1
-  
-  I nakong toga se pristupa segmentaciji slike kako bi se više istakao deo slike gde se nalazi tumor i kako bi klasifikacija bila uspešnija
-  
-Nakon toga kreira se neuronska mreža koja će se koristiti u klasifikaciji i vrši se obučavanje.
+Image Loading and Display: First, images are loaded from a folder and displayed.
 
-Procenat tačnost(accuracy) je na kraju obučavanja 88.57%
+SNR (Signal-to-Noise Ratio) Calculation: The noise level in the images is calculated, and the SNR index is graphically displayed to visualize the noise level.
+
+Image Interpolation: The image is resized using the BICUBIC interpolation algorithm.
+
+Noise Removal: The noise is removed from images where the SNR index is lower than 1.
+
+Image Segmentation: Segmentation is applied to enhance the region of the image where the tumor is located, improving the classification accuracy.
+
+Neural Network Creation: A neural network is created to be used in the classification process, followed by training.
+
+The accuracy percentage after training is 88.57%.
