@@ -1,4 +1,5 @@
 Description:
+
 The goal of this project is to detect the presence of a brain tumor based on images from magnetic resonance imaging (MRI).
 
 The process begins with image preprocessing to ensure successful classification:
